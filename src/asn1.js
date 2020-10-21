@@ -32,7 +32,7 @@
  *
  */
 //**************************************************************************************
-import { getParametersValue, padNumber, isEqualBuffer, bufferToHexCodes, checkBufferParams, utilToBase, utilFromBase, utilEncodeTC, utilDecodeTC, utilConcatBuf, utilConcatView } from "pvutils";
+import { getParametersValue, padNumber, isEqualBuffer, bufferToHexCodes, checkBufferParams, utilToBase, utilFromBase, utilEncodeTC, utilDecodeTC, utilConcatBuf, utilConcatView } from "@esign/pvutils";
 //**************************************************************************************
 //region Declaration of global variables
 //**************************************************************************************

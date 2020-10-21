@@ -30,7 +30,7 @@
     "url": "git://github.com/PeculiarVentures/asn1.js.git"
   },
   "dependencies": {
-    "pvutils": "latest"
+    "@esign/pvutils": "latest"
   },
   "description": "asn1js is a pure JavaScript library implementing this standard. ASN.1 is the basis of all X.509 related data structures and numerous other protocols used on the web",
   "keywords": [
@@ -51,7 +51,7 @@
   ],
   "jsnext:main": "./src/asn1.js",
   "main": "./build/asn1.js",
-  "name": "asn1js",
+  "name": "@esign/asn1js",
   "scripts": {
     "build": "babel src --compact=false --out-dir build --source-maps",
     "watch": "babel src --compact=false --out-dir build --source-maps --watch",
